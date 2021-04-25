@@ -1,0 +1,45 @@
+body {
+	font-family: Helvetica Neue;
+	font-size: 16px;
+}
+
+body{
+	background-image: url(bg.jpg);
+	background-color: #222;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: 40%;
+	margin: 0px;
+}
+
+@media screen and (max-width: 600px) {
+	body {
+		background-size: 100%;
+	}
+}
+
+.container {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.text-soon {
+	color: #fff;
+	text-align: center;
+}
+
+h1{
+	font-weight: 300;
+	letter-spacing: 16px;
+	font-size: 4em;
+}
+p {
+	font-weight: lighter;
+	font-size: 1.5em;
+	margin-top: -40px;
+}
